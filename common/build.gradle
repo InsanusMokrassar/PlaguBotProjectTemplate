@@ -4,12 +4,6 @@ plugins {
     id "com.google.devtools.ksp"
 }
 
-repositories {
-    mavenCentral()
-    mavenLocal()
-    maven { url "https://git.inmo.dev/api/packages/InsanusMokrassar/maven" }
-}
-
 dependencies {
     api libs.kotlin
     api libs.microutils.koin
