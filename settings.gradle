@@ -1,0 +1,17 @@
+rootProject.name = 'project_name'
+
+String[] includes = [
+    ":runner",
+    ":common",
+]
+
+
+includes.each { originalName ->
+    String projectDirectory = "${rootProject.projectDir.getAbsolutePath()}${originalName.replace(":", File.separator)}"
+    String projectName = "${rootProject.name}${originalName.replace(":", ".")}"
+    String projectIdentifier = ":${projectName}"
+    include projectIdentifier
+    ProjectDescriptor project = project(projectIdentifier)
+    project.name = projectName
+    project.projectDir = new File(projectDirectory)
+}

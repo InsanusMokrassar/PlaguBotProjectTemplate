@@ -1,0 +1,26 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm"
+    id "org.jetbrains.kotlin.plugin.serialization"
+    id "com.google.devtools.ksp"
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven { url "https://git.inmo.dev/api/packages/InsanusMokrassar/maven" }
+}
+
+dependencies {
+    api libs.kotlin
+    api libs.microutils.koin
+    api libs.plagubot.plugin
+    api libs.plagubot.plugins.commands
+    api libs.microutils.repos.common
+    api libs.microutils.repos.exposed
+
+    ksp libs.microutils.koin.generator
+    ksp libs.microutils.repos.generator
+}
+
+ksp {
+}

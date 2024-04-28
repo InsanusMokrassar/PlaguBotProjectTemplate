@@ -1,0 +1,13 @@
+{
+  "database": {
+    "url": "jdbc:sqlite:file:local.sqlite?cache=shared"
+  },
+  "botToken": "1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghi",
+  "plugins": [
+    "dev.inmo.plagubot.plugins.commands.CommandsPlugin",
+    "project_group.project_name.common.CommonPlugin"
+  ],
+  "common": {
+    "sample": "ggwp"
+  }
+}

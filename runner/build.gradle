@@ -1,0 +1,23 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm"
+    id "org.jetbrains.kotlin.plugin.serialization"
+    id 'application'
+}
+
+project.version = null
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven { url "https://git.inmo.dev/api/packages/InsanusMokrassar/maven" }
+}
+
+dependencies {
+    implementation libs.kotlin
+    implementation libs.plagubot.bot
+    implementation project(":project_name.common")
+}
+
+application {
+    mainClassName = 'dev.inmo.plagubot.AppKt'
+}
