@@ -5,7 +5,8 @@
   "botToken": "1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghi",
   "plugins": [
     "dev.inmo.plagubot.plugins.commands.CommandsPlugin",
-    "project_group.project_name.common.CommonPlugin"
+    "project_group.project_name.common.CommonPlugin",
+    "project_group.project_name.replier.ReplierPlugin"
   ],
   "common": {
     "sample": "ggwp"
