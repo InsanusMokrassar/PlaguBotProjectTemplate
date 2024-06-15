@@ -17,7 +17,7 @@ junit_version = "4.12"
 test_ext_junit_version = "1.1.5"
 espresso_core = "3.5.1"
 
-android-gradle-plugin = "8.3.2"
+android-gradle-plugin = "8.5.0"
 android-minSdk = "21"
 android-compileSdk = "34"
 android-buildTools = "34.0.0"
