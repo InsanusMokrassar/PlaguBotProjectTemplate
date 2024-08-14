@@ -1,16 +1,16 @@
 [versions]
 
-kotlin = "1.9.23"
-kotlin-serialization = "1.6.3"
+kotlin = "2.0.10"
+kotlin-serialization = "1.7.1"
 
-plagubot = "8.3.0"
-plagubot-plugins = "0.18.3"
+plagubot = "9.0.0"
+plagubot-plugins = "0.20.0"
 
 dokka = "1.9.20"
 
-ksp = "1.9.23-1.0.20"
+ksp = "2.0.10-1.0.24"
 
-microutils = "0.20.46"
+microutils = "0.22.0"
 
 dexcount = "4.0.0"
 junit_version = "4.12"
@@ -19,8 +19,8 @@ espresso_core = "3.5.1"
 
 android-gradle-plugin = "8.3.2"
 android-minSdk = "21"
-android-compileSdk = "34"
-android-buildTools = "34.0.0"
+android-compileSdk = "35"
+android-buildTools = "35.0.0"
 
 [libraries]
 
