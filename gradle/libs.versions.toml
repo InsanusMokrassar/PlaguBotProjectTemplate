@@ -10,7 +10,7 @@ dokka = "1.9.20"
 
 ksp = "2.0.10-1.0.24"
 
-microutils = "0.22.0"
+microutils = "0.22.2"
 
 dexcount = "4.0.0"
 junit_version = "4.12"
