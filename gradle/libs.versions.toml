@@ -1,26 +1,21 @@
 [versions]
 
 kotlin = "2.0.20"
-kotlin-serialization = "1.7.2"
+kotlin-serialization = "1.7.3"
 
-plagubot = "9.3.0"
-plagubot-plugins = "0.22.0"
+plagubot = "10.0.0"
+plagubot-plugins = "0.23.0"
 
 dokka = "1.9.20"
 
 ksp = "2.0.20-1.0.25"
 
-microutils = "0.22.2"
+microutils = "0.22.4"
 
 dexcount = "4.0.0"
 junit_version = "4.12"
 test_ext_junit_version = "1.2.1"
 espresso_core = "3.6.1"
-
-android-gradle-plugin = "8.3.2"
-android-minSdk = "21"
-android-compileSdk = "35"
-android-buildTools = "35.0.0"
 
 [libraries]
 
@@ -45,8 +40,6 @@ plagubot-plugins-commands = { module = "dev.inmo:plagubot.plugins.commands", ver
 
 # buildscript classpaths
 
-android-tools-build = { module = "com.android.tools.build:gradle", version.ref = "android-gradle-plugin" }
-android-dexcount = { module = "com.getkeepsafe.dexcount:dexcount-gradle-plugin", version.ref = "dexcount" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 kotlin-serialization-plugin = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
 kotlin-dokka-plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
