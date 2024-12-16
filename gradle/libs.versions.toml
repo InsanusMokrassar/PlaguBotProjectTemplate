@@ -6,7 +6,7 @@ kotlin-serialization = "1.7.3"
 plagubot = "10.1.1"
 plagubot-plugins = "0.24.1"
 
-dokka = "1.9.20"
+dokka = "2.0.0"
 
 ksp = "2.0.20-1.0.25"
 
