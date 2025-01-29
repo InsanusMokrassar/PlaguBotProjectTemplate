@@ -10,5 +10,8 @@
   ],
   "common": {
     "sample": "ggwp"
+  },
+  "replier": {
+    "answer": "Sample"
   }
 }
