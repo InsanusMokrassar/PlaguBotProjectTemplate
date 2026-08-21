@@ -1,4 +1,4 @@
-FROM bellsoft/liberica-openjdk-alpine:21.0.7
+FROM bellsoft/liberica-openjdk-alpine:25.0.4.1
 
 USER 1000
 
