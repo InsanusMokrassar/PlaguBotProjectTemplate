@@ -4,7 +4,7 @@ kotlin = "2.3.21"
 kotlin-serialization = "1.11.0"
 
 plagubot = "11.2.0"
-plagubot-plugins = "0.25.0"
+plagubot-plugins = "0.28.0"
 
 dokka = "2.2.0"
 
