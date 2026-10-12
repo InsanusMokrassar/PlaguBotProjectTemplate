@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0
+## Unreleased
 
 * `Kotlin`: `2.3.21` -> `2.4.21`
 * `Gradle`: `8.12.1` -> `9.7.0` (latest supported by Kotlin 2.4.21)
