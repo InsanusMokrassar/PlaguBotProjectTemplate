@@ -1,21 +1,21 @@
 [versions]
 
-kotlin = "2.3.21"
+kotlin = "2.4.21"
 kotlin-serialization = "1.11.0"
 
-plagubot = "11.2.0"
-plagubot-plugins = "0.25.0"
+plagubot = "14.0.0"
+plagubot-plugins = "0.29.0"
 
 dokka = "2.2.0"
 
-ksp = "2.3.7"
+ksp = "2.3.12"
 
-microutils = "0.29.2"
+microutils = "0.32.0"
 
 dexcount = "4.0.0"
-junit_version = "4.12"
-test_ext_junit_version = "1.2.1"
-espresso_core = "3.6.1"
+junit_version = "4.13.2"
+test_ext_junit_version = "1.3.0"
+espresso_core = "3.7.0"
 
 [libraries]
 
