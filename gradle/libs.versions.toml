@@ -1,7 +1,7 @@
 [versions]
 
 kotlin = "2.4.21"
-kotlin-serialization = "1.11.0"
+kotlin-serialization = "1.12.0"
 
 plagubot = "14.0.0"
 plagubot-plugins = "0.29.0"
