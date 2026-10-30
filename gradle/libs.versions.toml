@@ -8,7 +8,7 @@ plagubot-plugins = "0.29.0"
 
 dokka = "2.2.0"
 
-ksp = "2.3.12"
+ksp = "2.3.13"
 
 microutils = "0.32.0"
 
